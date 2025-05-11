@@ -10,7 +10,7 @@ int main(){
         printf("Cima-Direita\n");
     }
 
-    //Aqui seugue o movimento da Rainha
+    //Aqui seugue os movimentos da Rainha
     printf("Movimento do Rainha.\n");
     int rainha = 0;
     while (rainha < 8)
