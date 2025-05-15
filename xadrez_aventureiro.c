@@ -10,7 +10,7 @@ int main(){
         printf("Cima-Direita\n");
     }
 
-    //Aqui seugue os movimentos da Rainha
+    //Aqui seugue o movimento da Rainha
     printf("Movimento do Rainha.\n");
     int rainha = 0;
     while (rainha < 8)
@@ -28,6 +28,20 @@ int main(){
         printf("Frente\n");
         torre++;
     } while (torre < 5);
+
+        printf("\n");
+        
+        int movimentocavalo = 1;
+
+            printf("Movimento Cavalo.\n");
+    while (movimentocavalo--)
+    {
+        for(int i = 0; i < 2; i++){
+            printf("Baixo\n");
+        }
+            printf("Esquerda\n");
+
+    }     
 
     return 0;
 }
